@@ -12,7 +12,7 @@
 
 static long double S0 = 0;
 
-void termometroStart(void)
+void termometerStart(void)
 {
     I2C_setslave(TMP006_SLAVE_ADDRESS);
     I2C_write16(TMP006_WRITE_REG, TMP006_RST);

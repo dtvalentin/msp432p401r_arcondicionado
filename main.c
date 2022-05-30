@@ -4,7 +4,6 @@
 //
 //****************************************************************************
 
-#include <clock.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -67,7 +66,7 @@ void main(void)
     luximeterStart();
     consolePrintln("Luximetro Inicializado...");
 
-    termometroStart();
+    termometerStart();
     consolePrintln("Termometro Inicializado...");
 
     dataLoggerStart();
